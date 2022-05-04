@@ -20,7 +20,7 @@ export default function Home() {
                         oui ,alors prepare toi et le'st go</h2>
                 </div>
                 <div className='heder'>
-                    <h2 style={{ fontSize: 25, textAlign: 'center' }}>je sais que tu en as marre de ton biton de ventre ,c'est le moment de t'endebarasser .</h2>
+                    <h2 style={{ fontSize: 25, textAlign: 'center' }}>je sais que tu en as marre de ton biton de ventre ,c'est le moment de t'en debarasser .</h2>
                 </div>
             </div>
             <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',marginTop:20 }}>
