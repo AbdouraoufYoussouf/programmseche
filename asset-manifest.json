@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/programmseche/static/css/main.073c9b0a.css",
-    "main.js": "/programmseche/static/js/main.e5013825.js",
-    "static/js/787.522c2a1b.chunk.js": "/programmseche/static/js/787.522c2a1b.chunk.js",
-    "index.html": "/programmseche/index.html",
-    "main.073c9b0a.css.map": "/programmseche/static/css/main.073c9b0a.css.map",
-    "main.e5013825.js.map": "/programmseche/static/js/main.e5013825.js.map",
-    "787.522c2a1b.chunk.js.map": "/programmseche/static/js/787.522c2a1b.chunk.js.map"
+    "main.css": "/static/css/main.ede0c415.css",
+    "main.js": "/static/js/main.df055e50.js",
+    "static/js/787.522c2a1b.chunk.js": "/static/js/787.522c2a1b.chunk.js",
+    "static/media/doc.PNG": "/static/media/doc.c8622d7df4668b7f3e3a.PNG",
+    "static/media/raf.jpg": "/static/media/raf.313c3663ec19522505de.jpg",
+    "index.html": "/index.html",
+    "main.ede0c415.css.map": "/static/css/main.ede0c415.css.map",
+    "main.df055e50.js.map": "/static/js/main.df055e50.js.map",
+    "787.522c2a1b.chunk.js.map": "/static/js/787.522c2a1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e5013825.js"
+    "static/css/main.ede0c415.css",
+    "static/js/main.df055e50.js"
   ]
 }
