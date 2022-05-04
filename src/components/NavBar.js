@@ -12,10 +12,10 @@ export default function NavBar() {
                 <Right >
                     <ul>
                         <NavLink to='/' className={(nav) => nav.isActive ? 'actived' : 'navlink'} >
-                            <li>Home</li>
+                            Home
                         </NavLink>
                         <NavLink to='program' className={(nav) => nav.isActive ? 'actived' : 'navlink'} >
-                            <li>Programme</li>
+                            Programme
                         </NavLink>
                        
                     </ul>

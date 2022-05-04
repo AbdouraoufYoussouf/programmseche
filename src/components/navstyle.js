@@ -6,8 +6,7 @@ export const NavBare = styled.div`
    width: 100%;
     height: 100%; 
     position: sticky;
-    top: 0;
-    z-index: 100; 
+   top: 0;
 `;
 
 export const Header = styled.div`
@@ -30,22 +29,15 @@ export const Left = styled.div`
     }
 `;
 export const Right = styled.div`
-    height: 100%;
-    width: 20%;
+    
+    width: 300px;
     ul{
         display: flex;
-        justify-content: space-between;
-
-        li{
-            list-style: none;
-            font-size: 20px;
-            color: white;
-        }
+        justify-content: space-around;
     }
     .actived{
-    transition: all 0.2s ease-out;
-    color: red;
-    margin-left: 10px;
+    color: #1888ff;
+    font-size: 20px;
     text-decoration: none;
   }
   .actived:hover{
@@ -55,7 +47,8 @@ export const Right = styled.div`
     color: white;
     text-transform: capitalize;
     text-decoration: none;
-    text-decoration: none;
+    width: 100px;
+    font-size: 20px;
   }
   .navlink:hover {
     color: white;

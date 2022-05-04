@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #282c34;
+    width: 100%;
+    min-height: 80vh; 
+    color: #fff;
+}
+.heder{
+    justify-content: center;
+    background-color: #282c34;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 30%;
+    height: 150px;
+    
+}
+
+/* ************** Program *************/
+.left{
+    
+}
