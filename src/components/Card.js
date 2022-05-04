@@ -55,7 +55,7 @@ const CardFooter = styled.div`
     justify-content: space-between;
     height: 120px;
     h2{
-        margin-top: 20px;
+        margin-top: 30px;
         text-align: start;
         font-size:20px;
         font-weight:700;
@@ -81,7 +81,6 @@ const LesButtons = styled.div`
     align-content: flex-end;
     flex-direction: row;
     width: 90%;
-    margin-top: 10px;
     position:absolute;
     bottom: 0;
     p{
@@ -103,7 +102,7 @@ const Button = styled.button`
     color: white;
     background-color: orange;
     border: none;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
     cursor: pointer;
 `;
 // image content 

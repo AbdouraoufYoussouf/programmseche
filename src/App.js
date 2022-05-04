@@ -7,14 +7,15 @@ import { Program } from './pages/Program';
 
 function App() {
   return (
-    <>
+    <div className='App'>
       <NavBar/>
       <Routes>
+        <Route path='programmseche' element={<Home/>} />
         <Route path='/' element={<Home/>} />
         <Route path='program' element={<Program/>} />
         <Route path='detail' element={<Details/>} />
       </Routes>
-    </>
+    </div>
   );
 }
 

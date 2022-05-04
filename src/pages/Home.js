@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <div className='container'>
             <div style={{
-                width: '100%', height: '450px', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around',
+                width: '100%', height: '400px', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-around',
                 backgroundImage: `url(${raf})`, backgroundSize: 'cover', backgroundPosition: 'right center', backgroundRepeat: 'no-repeat'
             }}>
                 <div className='heder'>
@@ -23,9 +23,8 @@ export default function Home() {
                     <h2 style={{ fontSize: 25, textAlign: 'center' }}>je sais que tu en as marre de ton biton de ventre ,c'est le moment de t'endebarasser .</h2>
                 </div>
             </div>
-            <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center' }}>
+            <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',marginTop:20 }}>
                 {
-                    //<Link to={{  pathname: "/courses", search: "?sort=name",  hash: "#the-hash", state: { fromDashboard: true } }}/>
                     // tutos.map((item, index) => {
                     //     return (
                             //<Link to="/some-where" state={myData}>Link Text</Link>
@@ -37,6 +36,7 @@ export default function Home() {
                     //     )
                     // })
                 }
+                          
             </div>
         </div>
     )
