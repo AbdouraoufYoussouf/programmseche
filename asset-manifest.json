@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/programmseche/static/css/main.ede0c415.css",
-    "main.js": "/programmseche/static/js/main.b0fb907b.js",
+    "main.css": "/programmseche/static/css/main.76432f7c.css",
+    "main.js": "/programmseche/static/js/main.98f20bfa.js",
     "static/js/787.522c2a1b.chunk.js": "/programmseche/static/js/787.522c2a1b.chunk.js",
     "static/media/doc.PNG": "/programmseche/static/media/doc.c8622d7df4668b7f3e3a.PNG",
     "static/media/raf.jpg": "/programmseche/static/media/raf.313c3663ec19522505de.jpg",
     "index.html": "/programmseche/index.html",
-    "main.ede0c415.css.map": "/programmseche/static/css/main.ede0c415.css.map",
-    "main.b0fb907b.js.map": "/programmseche/static/js/main.b0fb907b.js.map",
+    "main.76432f7c.css.map": "/programmseche/static/css/main.76432f7c.css.map",
+    "main.98f20bfa.js.map": "/programmseche/static/js/main.98f20bfa.js.map",
     "787.522c2a1b.chunk.js.map": "/programmseche/static/js/787.522c2a1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ede0c415.css",
-    "static/js/main.b0fb907b.js"
+    "static/css/main.76432f7c.css",
+    "static/js/main.98f20bfa.js"
   ]
 }
