@@ -13,7 +13,7 @@ export const Accordion = ({ titre, index, id, soustitres, idP }) => {
         setIsActive(!isActive)
     }
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', marginBottom: 10 }} >
+        <div style={{ display: 'flex',flexDirection: 'column', marginBottom: 10 }} >
             <NavLink onClick={toggleActive} key={id} to={'/program/' + idP + '/detail/' + id} className={(nav) => nav.isActive ? 'active' : 'item'}>
                 <FontAwesomeIcon style={{ marginLeft: 10 }} icon={faCheckCircle} color='white' size="xl" />
                 <FontAwesomeIcon style={{ marginLeft: 10 }} icon={faListSquares} color='white' size="lg" />
@@ -26,22 +26,23 @@ export const Accordion = ({ titre, index, id, soustitres, idP }) => {
                 }
             </NavLink>
             {
-                isActive ?  <div style={{ display: 'flex', flexDirection: 'column' }}>
-                {
-                    soustitres.map((item, index) => {
-                        return (
-                            <div key={index} style={{ marginLeft: 10, marginBottom: 7 ,display:'flex',flexDirection:'row',width:100,alignSelf:'center',alignItems:'center'}}>
-                                <input style={{ backgroundColor: 'red', width: 18, height: 18 }} type="checkbox" />
-                                <Link style={{ fontSize: 16, textDecoration: 'none', color: 'white', marginLeft: 5 }} to={'#' + item.id}>{item.nom}</Link>
-                            </div>
-                        )
-                    })
-                }
-            </div> 
-            : <></>
+                isActive ? <div style={{ display: 'flex', flexDirection: 'column' }}>
+                    {
+                        soustitres.map((item, index) => {
+                            return (
+                                <div key={index} style={{ marginLeft: 10, marginBottom: 7, display: 'flex', flexDirection: 'row', width: 100, alignSelf: 'center', alignItems: 'center' }}>
+                                    <input style={{ color: 'red', width: 18, height: 18 }} type="checkbox" />
+                                    <Link style={{ fontSize: 16, textDecoration: 'none', color: 'white', marginLeft: 5 }}
+                                        to={'#' + item.id}>{item.nom}</Link>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+                    : <></>
             }
 
-           
+
         </div>
     )
 }

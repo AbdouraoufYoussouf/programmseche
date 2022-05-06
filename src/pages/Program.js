@@ -15,7 +15,7 @@ export const Program = () => {
   console.log(semaine)
   return (
     <div className='containerP'>
-      <div className='left'>
+      <div className='leftP'>
         <img src={doc} alt="image" />
         <h3>Transformation Faite Maison</h3>
         <div style={{ display: 'flex', flexDirection: 'column', }}>
@@ -23,7 +23,7 @@ export const Program = () => {
           <h1 style={{ fontSize: 40, textAlign: 'center' }}>36%</h1>
         </div>
       </div>
-      <div className='content'>
+      <div className='contentP'>
         <h1>Le program 30 jours de routines</h1>
 
           {

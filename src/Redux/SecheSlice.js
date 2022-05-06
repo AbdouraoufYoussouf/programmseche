@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import Data from "../../Data/Datas";
+import Data from "../Data/Datas";
 
 const initialState = {
     seche : Data,

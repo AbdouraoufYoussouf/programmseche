@@ -3,6 +3,10 @@ import { NavLink } from 'react-router-dom'
 import { NavBare, Header, Left, Right } from './navstyle'
 
 export default function NavBar() {
+    const navBar = [
+        { id: 1, titre: 'Home', route: '/' },
+        // { id: 1, titre: 'Boutique', route: 'boutique' },
+    ]
     return (
         <NavBare>
             <Header>
@@ -11,13 +15,15 @@ export default function NavBar() {
                 </Left>
                 <Right >
                     <ul>
-                        <NavLink to='/' className={(nav) => nav.isActive ? 'actived' : 'navlink'} >
-                            Home
-                        </NavLink>
-                        <NavLink to='boutique' className={(nav) => nav.isActive ? 'actived' : 'navlink'} >
-                            Boutique
-                        </NavLink>
-                       
+                        {
+                            navBar.map((item, index) => {
+                                return (
+                                    <NavLink key={index} to={item.route} className={(nav) => nav.isActive ? 'actived' : 'navlink'} >
+                                        {item.titre}
+                                    </NavLink>
+                                )
+                            })
+                        }
                     </ul>
                 </Right>
             </Header>

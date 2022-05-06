@@ -7,7 +7,7 @@
     color: white;
 }
 
-.left{
+.leftP{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,13 +20,13 @@
     background-color: rgb(19, 18, 18);
 
 }
-.left img{
+.leftP img{
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
 /********************/
-.content{
+.contentP{
     display: flex;
     flex-direction: column;
     align-items:center;

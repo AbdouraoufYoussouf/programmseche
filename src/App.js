@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import { Program } from './pages/Program';
 import { Boutique } from './pages/boutique/Boutique';
 import { Provider } from 'react-redux';
-import { store } from './components/Redux/Store';
+import { store } from './Redux/Store';
 
 function App() {
   return (

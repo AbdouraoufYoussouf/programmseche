@@ -45,19 +45,28 @@ export const Details = () => {
               <div id={item.id} key={index} style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start', width: '100%' }}>
                 <h2><input style={{ backgroundColor: 'red', width: 18, height: 18 }} type="checkbox" /> {item.nom} </h2>
                 <p> Durée total aproximative : <code style={{ fontSize: 18 }}>{item.dure}</code></p>
-                <p style={{ fontSize: 18, margin: 0 }}>{item.desc} </p>
+                <p style={{ fontSize: 18, margin: 0 ,textAlign:'left'}}>{item.desc} </p>
                 <h2>Routine à suivre:</h2>
                 {
                   item.routines.map((item, index) => {
                     return (
-                      <div key={index}>
-                        <h3 style={{ textAlign: 'left', margin: 5 }}>{item.titre} </h3>
-                        <iframe width="560" height="315" 
-                          src={item.url}
-                          title="YouTube video player"
-                          allow="accelerometer; autoplay; clipboard-write;  encrypted-media; gyroscope; picture-in-picture"
-                        >
-                        </iframe>
+                      <div key={index} style={{width:'100%', display: 'flex', flexDirection: 'column',alignItems:'center',}}>
+                        <div style={{width:'100%'}}>
+                          <h3 style={{ textAlign: 'left', margin: 5 }}>{item.titre} </h3>
+                          <p style={{ fontSize: 18, marginBottom: 15, textAlign: 'left' }} >{item.desc} </p>
+
+                        </div>
+
+                        <div >
+                          <iframe width="560" height="315" 
+                            src={item.url}
+                            title="YouTube video player" allowFullScreen
+                            allow="accelerometer; autoplay; clipboard-write;  encrypted-media; gyroscope; picture-in-picture"
+                          >
+                          </iframe>
+
+                        </div>
+
                       </div>
                     )
                   })
