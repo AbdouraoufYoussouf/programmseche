@@ -1,17 +1,15 @@
 {
-  "files": {
-    "main.css": "/programmseche/static/css/main.76432f7c.css",
-    "main.js": "/programmseche/static/js/main.5f83d8a7.js",
-    "static/js/787.522c2a1b.chunk.js": "/programmseche/static/js/787.522c2a1b.chunk.js",
-    "static/media/doc.PNG": "/programmseche/static/media/doc.c8622d7df4668b7f3e3a.PNG",
-    "static/media/raf.jpg": "/programmseche/static/media/raf.313c3663ec19522505de.jpg",
-    "index.html": "/programmseche/index.html",
-    "main.76432f7c.css.map": "/programmseche/static/css/main.76432f7c.css.map",
-    "main.5f83d8a7.js.map": "/programmseche/static/js/main.5f83d8a7.js.map",
-    "787.522c2a1b.chunk.js.map": "/programmseche/static/js/787.522c2a1b.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.76432f7c.css",
-    "static/js/main.5f83d8a7.js"
-  ]
+  "main.css": "/programmseche/static/css/main.85bee462.chunk.css",
+  "main.js": "/programmseche/static/js/main.a8bf3cff.chunk.js",
+  "main.js.map": "/programmseche/static/js/main.a8bf3cff.chunk.js.map",
+  "runtime~main.js": "/programmseche/static/js/runtime~main.8c9ffd14.js",
+  "runtime~main.js.map": "/programmseche/static/js/runtime~main.8c9ffd14.js.map",
+  "static/js/2.3dc675dd.chunk.js": "/programmseche/static/js/2.3dc675dd.chunk.js",
+  "static/js/2.3dc675dd.chunk.js.map": "/programmseche/static/js/2.3dc675dd.chunk.js.map",
+  "index.html": "/programmseche/index.html",
+  "precache-manifest.d433a2574380355a1e0c4c8a3e30bf74.js": "/programmseche/precache-manifest.d433a2574380355a1e0c4c8a3e30bf74.js",
+  "service-worker.js": "/programmseche/service-worker.js",
+  "static/css/main.85bee462.chunk.css.map": "/programmseche/static/css/main.85bee462.chunk.css.map",
+  "static/media/doc.PNG": "/programmseche/static/media/doc.749ea740.PNG",
+  "static/media/raf.jpg": "/programmseche/static/media/raf.0e839279.jpg"
 }
