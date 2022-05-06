@@ -55,8 +55,8 @@ const CardFooter = styled.div`
     justify-content: space-between;
     height: 120px;
     h2{
-        margin-top: 30px;
-        text-align: start;
+        margin-top: 20px;
+        text-align: center;
         font-size:20px;
         font-weight:700;
         color: blue;

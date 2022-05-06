@@ -14,8 +14,8 @@ export default function NavBar() {
                         <NavLink to='/' className={(nav) => nav.isActive ? 'actived' : 'navlink'} >
                             Home
                         </NavLink>
-                        <NavLink to='program' className={(nav) => nav.isActive ? 'actived' : 'navlink'} >
-                            Programme
+                        <NavLink to='boutique' className={(nav) => nav.isActive ? 'actived' : 'navlink'} >
+                            Boutique
                         </NavLink>
                        
                     </ul>

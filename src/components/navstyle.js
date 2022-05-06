@@ -4,9 +4,10 @@ export const NavBare = styled.div`
    // background-color: #282c34;
    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); 
    width: 100%;
-    height: 100%; 
+    height: 60px; 
     position: sticky;
    top: 0;
+   z-index: 100;
 `;
 
 export const Header = styled.div`

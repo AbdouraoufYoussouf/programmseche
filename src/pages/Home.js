@@ -1,14 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import {useParams,Link, useLocation } from "react-router-dom";
 import '../styles/stylesHome.css'
 import raf from '../images/raf.jpg';
-import doc from '../images/doc.PNG';
 import Card from '../components/Card';
+import { useSelector } from 'react-redux';
 
 export default function Home() {
-    const data = [
-        {}
-    ]
+    const Seche = useSelector((state)=> state.secheState)
+    const Data = Seche.seche
+    //console.log(Data)
+    
     return (
         <div className='container'>
             <div style={{
@@ -23,20 +24,20 @@ export default function Home() {
                     <h2 style={{ fontSize: 25, textAlign: 'center' }}>je sais que tu en as marre de ton biton de ventre ,c'est le moment de t'en debarasser .</h2>
                 </div>
             </div>
-            <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',marginTop:20 }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', marginTop: 20 }}>
                 {
-                    // tutos.map((item, index) => {
-                    //     return (
-                            //<Link to="/some-where" state={myData}>Link Text</Link>
-                            <Link className='carditem' to={'program'} /*state={{ tutos }} key={index}*/>
-                                <Card titre='Seche Pour un mois'
-                                    categorie='Street Workout'
-                                    imag={doc} description='description' />
+                    Data.map((item, index) => {
+                        return (
+                            
+                            <Link className='carditem' to={'/program/'+item.id} key={index}>
+                                <Card titre={item.nom}
+                                    categorie={item.categorie}
+                                    imag={item.photo} />
                             </Link >
-                    //     )
-                    // })
+                        )
+                    })
                 }
-                          
+
             </div>
         </div>
     )
