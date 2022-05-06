@@ -283,128 +283,119 @@ var Data = [
 
 
                 </div>,
-                "soustitres": [
-                    {
-                        "id": 1,
-                        "nom": "JOUR 11",
-                        "dure": "30min",
-                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-                        "routines": [
-                            {
-                                "id": 1,
-                                "titre": 'Echauffement',
-                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-                            },
-                            {
-                                "id": 2,
-                                "titre": 'Pectoraux',
-                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-                            },
-                            {
-                                "id": 3,
-                                "titre": 'Abdominaux',
-                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-                            },
-                        ]
-                    },
+            "soustitres": [
+                {
+                    "id": 1,
+                    "nom": "JOUR 11",
+                    "dure": "37min",
+                    'desc': "Cette séance travaille principalement les pecs et les abdominux.",
+                    "routines": [
+                        {
+                            "id": 1,
+                            "titre": '1- Echauffement',
+                            "desc": "L'échauffement est obligatoire avant de commencer. En plus de prévenir des blessures, il permet de faire monter le corps en température pour que les muscles puissent fonctionner dans de meilleures conditions, et de faire augmenter la fréquence cardiaque. ",
+                            "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                        },
+                        {
+                            "id": 2,
+                            "titre": '2- Pectoraux x 2',
+                            "desc": "Dans cette video nous allons cibler les pectoraux avec des differents exercices de pompes, je te propose de faire deux repetitions sur cette video ,mais ça depend de ta forme et de ta motivatioin.",
+                            "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                        },
+                        {
+                            "id": 3,
+                            "titre": '3- Abdominaux x 2',
+                            "desc": "Pour les abdos essaye de donner le maximum d'effort pout bien faire l'exercice ,car pas mal des gens font cette erreur de ne pas bien faire les exercices comme il faut et il risque des blessures,ou un mauvais resultat,repeter cette video deux fois ou plus s'il vous reste encore d'energie .",
+                            "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                        },
+                    ]
+                },
 
-                    {
-                        "id": 2,
-                        "nom": "JOUR 12",
-                        "dure": "1h20",
-                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-                        "routines": [
-                            {
-                                "id": 1,
-                                "titre": 'Echauffement',
-                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-                            },
-                            {
-                                "id": 2,
-                                "titre": 'Pectoraux',
-                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-                            },
-                            {
-                                "id": 3,
-                                "titre": 'Abdominaux',
-                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-                            },
-                        ]
-                    },
+                {
+                    "id": 2,
+                    "nom": "JOUR 12",
+                    "dure": "20min",
+                    'desc': "Dans cette séance normalement on devrait faire repos mais à notre maniere on va juste faire un peu de souplesse, tout en aidant à améliorer sa posture.",
+                    "routines": [
+                        {
+                            "id": 1,
+                            "titre": '1- Souplesse',
+                            "url": "https://www.youtube.com/embed/xvrWZk6ZekQ",
+                        },
+                    ]
+                },
 
-                    {
-                        "id": 3,
-                        "nom": "JOUR 13",
-                        "dure": "50min",
-                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-                        "routines": [
-                            {
-                                "id": 1,
-                                "titre": 'Echauffement',
-                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-                            },
-                            {
-                                "id": 2,
-                                "titre": 'Pectoraux',
-                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-                            },
-                            {
-                                "id": 3,
-                                "titre": 'Abdominaux',
-                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-                            },
+                {
+                    "id": 3,
+                    "nom": "JOUR 13",
+                    "dure": "57min",
+                    'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                    "routines": [
+                        {
+                            "id": 1,
+                            "titre": '1- Echauffement',
+                            "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                        },
+                        {
+                            "id": 2,
+                            "titre": '2- Haut du cops X 2',
+                            "url": "https://www.youtube.com/embed/aI9VbuedMLI",
+                        },
+                        {
+                            "id": 3,
+                            "titre": '3- Epaules X 2',
+                            "url": "https://www.youtube.com/embed/n4fsXXfU5jY",
+                        },
 
-                        ]
-                    },
 
-                    {
-                        "id": 4,
-                        "nom": "JOUR 14",
-                        "dure": "30min",
-                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-                        "routines": [
-                            {
-                                "id": 1,
-                                "titre": 'Echauffement',
-                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-                            },
-                            {
-                                "id": 2,
-                                "titre": 'Pectoraux',
-                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-                            },
-                            {
-                                "id": 3,
-                                "titre": 'Abdominaux',
-                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-                            },
-                        ]
-                    },
+                    ]
+                },
 
-                    {
-                        "id": 5,
-                        "nom": "JOUR 15",
-                        "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-                        "routines": [
-                            {
-                                "id": 1,
-                                "titre": 'Echauffement',
-                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-                            },
-                            {
-                                "id": 2,
-                                "titre": 'Pectoraux',
-                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-                            },
-                            {
-                                "id": 3,
-                                "titre": 'Abdominaux',
-                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-                            },
-                        ]
-                    },
+                {
+                    "id": 4,
+                    "nom": "JOUR 14",
+                    "dure": "45min",
+                    'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                    "routines": [
+                        {
+                            "id": 1,
+                            "titre": '1- Echauffement',
+                            "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                        },
+                        {
+                            "id": 2,
+                            "titre": '2- Cardio',
+                            "url": "https://www.youtube.com/embed/7sO5tFIoB7k",
+                        },
+                        {
+                            "id": 3,
+                            "titre": '4- Abdominaux X 2',
+                            "url": "https://www.youtube.com/embed/fNO30pPBZDo",
+                        },
 
-                ],
+                    ]
+                },
+
+                {
+                    "id": 5,
+                    "nom": "JOUR 15",
+                    "dure": "20min",
+                    'desc': "Dans cette séance normalement on devrait faire repos mais à notre maniere on va juste faire un peu de souplesse, tout en aidant à améliorer sa posture.",
+                    "routines": [
+                        {
+                            "id": 1,
+                            "titre": '1- Souplesse',
+                            "url": "https://www.youtube.com/embed/WjsQc9GUBW0?start=343",
+                        },
+                        {
+                            "id": 2,
+                            "titre": ' Ou ça pour aller plus loins',
+                            "url": "https://www.youtube.com/embed/RN7zy6WWu24?start=343",
+                        },
+                    ]
+                },
+
+            ],
             },
             {
                 id: 4,
