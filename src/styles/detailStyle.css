@@ -7,21 +7,27 @@
     color: white;
 }
 
-.left {
+.leftD {
     display: flex;
-    width: 280px;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 80vh;
     margin: 30px 0px 10px 0;
     padding: 10px;
-    border-radius: 15px;
-    background-color: rgb(192, 107, 107);
-
+    left: 0;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+    background-color: rgb(19, 18, 18);
+    position: fixed;
+    overflow-y: auto;
 }
 
 .item {
 
     background-color: rgb(115, 111, 119);
     width: 100%;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     display: flex;
     margin-bottom: 10px;
@@ -40,7 +46,7 @@
 .active {
     background-color: cornflowerblue;
     width: 100%;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     display: flex;
     margin-bottom: 10px;
@@ -63,6 +69,8 @@
     width: 65%;
     min-height: 80vh;
     font-size: 19px;
+    position: relative;
+    left: 195px;
 }
 
 .ancrage {

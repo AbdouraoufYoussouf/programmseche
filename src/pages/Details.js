@@ -4,6 +4,7 @@ import { NavLink, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar, faCarRear, faCheckCircle, faListDots, faListSquares } from '@fortawesome/free-solid-svg-icons'
 import { useSelector } from 'react-redux';
+import { Accordion } from '../components/Accordion';
 
 
 export const Details = () => {
@@ -21,41 +22,19 @@ export const Details = () => {
 
   return (
     <div className='containerD'>
-      <div className='left' >
+      <div className='leftD' >
         <h1 style={{ fontSize: 30, textAlign: 'center', backgroundColor: 'blueviolet', width: '100%', borderRadius: 15, marginTop: 5 }}>36% Completé</h1>
         <div style={{ display: 'flex', flexDirection: 'column', }}>
           {
             semaine.map((item, index) => {
               return (
-                <div style={{ display: 'flex', flexDirection: 'column', marginBottom: 10 }}>
-                  <NavLink style={{ width: 290 }} key={item.id} to={'/program/' + idP + '/detail/' + item.id} className={(nav) => nav.isActive ? 'active' : 'item'}>
-                    <FontAwesomeIcon style={{ marginLeft: 10 }} icon={faCheckCircle} color='white' size="2x" />
-                    <FontAwesomeIcon style={{ marginLeft: 10 }} icon={faListSquares} color='white' size="lg" />
-                    <div key={index} className='leson'>
-                      <p>{item.titre}</p>
-                    </div>
-                  </NavLink>
-
-                  <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    {
-                      item.soustitres.map((item, index) => {
-                        return (
-                          <div key={index} style={{ marginLeft: 10, marginBottom: 7 }}>
-                            <FontAwesomeIcon icon={faCalendar} color='white' size="x" />
-                            <a style={{ fontSize: 16, textDecoration: 'none', color: 'white', marginLeft: 5 }} href={'#' + item.id}>{item.nom}</a>
-                          </div>
-                        )
-                      })
-                    }
-
-
-                  </div>
-                </div>
+                <Accordion key={index} titre={item.titre} index={index} id={item.id} idP={idP} soustitres={item.soustitres} />
               )
             })
           }
         </div>
       </div>
+
       <div className='content'>
         <h1>{detailData.titre}</h1>
         {detailData.intro}
