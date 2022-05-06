@@ -273,536 +273,536 @@ var Data = [
 
                 ],
             },
-            // {
-            //     id: 3,
-            //     titre: "Jours 11 à 15",
-            //     "photo": doc,
-            //     "intro": <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start' }}>
-            //         <h2>Tiens bon ,on y est ! 🔥</h2>
-            //         <p>tu est si pret du bute</p>
+            {
+                id: 3,
+                titre: "Jours 11 à 15",
+                "photo": doc,
+                "intro": <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start' }}>
+                    <h2>Tiens bon ,on y est ! 🔥</h2>
+                    <p>tu est si pret du bute</p>
 
 
-            //     </div>,
-            //     "soustitres": [
-            //         {
-            //             "id": 1,
-            //             "nom": "JOUR 11",
-            //             "dure": "30min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                </div>,
+                "soustitres": [
+                    {
+                        "id": 1,
+                        "nom": "JOUR 11",
+                        "dure": "30min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //         {
-            //             "id": 2,
-            //             "nom": "JOUR 12",
-            //             "dure": "1h20",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                    {
+                        "id": 2,
+                        "nom": "JOUR 12",
+                        "dure": "1h20",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //         {
-            //             "id": 3,
-            //             "nom": "JOUR 13",
-            //             "dure": "50min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
+                    {
+                        "id": 3,
+                        "nom": "JOUR 13",
+                        "dure": "50min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
 
-            //             ]
-            //         },
+                        ]
+                    },
 
-            //         {
-            //             "id": 4,
-            //             "nom": "JOUR 14",
-            //             "dure": "30min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                    {
+                        "id": 4,
+                        "nom": "JOUR 14",
+                        "dure": "30min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //         {
-            //             "id": 5,
-            //             "nom": "JOUR 15",
-            //             "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                    {
+                        "id": 5,
+                        "nom": "JOUR 15",
+                        "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //     ],
-            // },
-            // {
-            //     id: 4,
-            //     titre: "Jours 16 à 20",
-            //     "photo": doc,
-            //     "intro": <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start' }}>
-            //         <h2>Tiens bon ,on y est ! 🔥</h2>
-            //         <p>tu est si pret du bute</p>
-
-
-            //     </div>,
-            //     "soustitres": [
-            //         {
-            //             "id": 1,
-            //             "nom": "JOUR 16",
-            //             "dure": "30min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
-
-            //         {
-            //             "id": 2,
-            //             "nom": "JOUR 17",
-            //             "dure": "1h20",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
-
-            //         {
-            //             "id": 3,
-            //             "nom": "JOUR 18",
-            //             "dure": "50min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-
-            //             ]
-            //         },
-
-            //         {
-            //             "id": 4,
-            //             "nom": "JOUR 19",
-            //             "dure": "30min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
-
-            //         {
-            //             "id": 5,
-            //             "nom": "JOUR 20",
-            //             "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
-
-            //     ],
-            // },
-            // {
-            //     id: 5,
-            //     titre: "Jours 21 à 25",
-            //     "photo": doc,
-            //     "intro": <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start' }}>
-            //         <h2>Tiens bon ,on y est ! 🔥</h2>
-            //         <p>tu est si pret du bute</p>
+                ],
+            },
+            {
+                id: 4,
+                titre: "Jours 16 à 20",
+                "photo": doc,
+                "intro": <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start' }}>
+                    <h2>Tiens bon ,on y est ! 🔥</h2>
+                    <p>tu est si pret du bute</p>
 
 
-            //     </div>,
-            //     "soustitres": [
-            //         {
-            //             "id": 1,
-            //             "nom": "JOUR 21",
-            //             "dure": "30min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                </div>,
+                "soustitres": [
+                    {
+                        "id": 1,
+                        "nom": "JOUR 16",
+                        "dure": "30min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //         {
-            //             "id": 2,
-            //             "nom": "JOUR 22",
-            //             "dure": "1h20",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                    {
+                        "id": 2,
+                        "nom": "JOUR 17",
+                        "dure": "1h20",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //         {
-            //             "id": 3,
-            //             "nom": "JOUR 23",
-            //             "dure": "50min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
+                    {
+                        "id": 3,
+                        "nom": "JOUR 18",
+                        "dure": "50min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
 
-            //             ]
-            //         },
+                        ]
+                    },
 
-            //         {
-            //             "id": 4,
-            //             "nom": "JOUR 24",
-            //             "dure": "30min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                    {
+                        "id": 4,
+                        "nom": "JOUR 19",
+                        "dure": "30min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //         {
-            //             "id": 5,
-            //             "nom": "JOUR 25",
-            //             "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                    {
+                        "id": 5,
+                        "nom": "JOUR 20",
+                        "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //     ],
-            // },
-            // {
-            //     id: 6,
-            //     titre: "Jours 26 à 30",
-            //     "photo": doc,
-            //     "intro": <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start' }}>
-            //         <h2 >Tiens bon ,on y est ! <span>🔥</span></h2>
-            //         <p>tu est si pret du bute</p>
-            //     </div>,
-            //     "soustitres": [
-            //         {
-            //             "id": 1,
-            //             "nom": "JOUR 26",
-            //             "dure": "30min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                ],
+            },
+            {
+                id: 5,
+                titre: "Jours 21 à 25",
+                "photo": doc,
+                "intro": <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start' }}>
+                    <h2>Tiens bon ,on y est ! 🔥</h2>
+                    <p>tu est si pret du bute</p>
 
-            //         {
-            //             "id": 2,
-            //             "nom": "JOUR 27",
-            //             "dure": "1h20",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
 
-            //         {
-            //             "id": 3,
-            //             "nom": "JOUR 28",
-            //             "dure": "50min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
+                </div>,
+                "soustitres": [
+                    {
+                        "id": 1,
+                        "nom": "JOUR 21",
+                        "dure": "30min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //             ]
-            //         },
+                    {
+                        "id": 2,
+                        "nom": "JOUR 22",
+                        "dure": "1h20",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
 
-            //         {
-            //             "id": 4,
-            //             "nom": "JOUR 29",
-            //             "dure": "30min",
-            //             'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                    {
+                        "id": 3,
+                        "nom": "JOUR 23",
+                        "dure": "50min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
 
-            //         {
-            //             "id": 5,
-            //             "nom": "JOUR 30",
-            //             "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
-            //             "routines": [
-            //                 {
-            //                     "id": 1,
-            //                     "titre": 'Echauffement',
-            //                     "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
-            //                 },
-            //                 {
-            //                     "id": 2,
-            //                     "titre": 'Pectoraux',
-            //                     "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
-            //                 },
-            //                 {
-            //                     "id": 3,
-            //                     "titre": 'Abdominaux',
-            //                     "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
-            //                 },
-            //             ]
-            //         },
+                        ]
+                    },
 
-            //     ],
-            // },
+                    {
+                        "id": 4,
+                        "nom": "JOUR 24",
+                        "dure": "30min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
+
+                    {
+                        "id": 5,
+                        "nom": "JOUR 25",
+                        "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
+
+                ],
+            },
+            {
+                id: 6,
+                titre: "Jours 26 à 30",
+                "photo": doc,
+                "intro": <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'self-start' }}>
+                    <h2 >Tiens bon ,on y est ! <span>🔥</span></h2>
+                    <p>tu est si pret du bute</p>
+                </div>,
+                "soustitres": [
+                    {
+                        "id": 1,
+                        "nom": "JOUR 26",
+                        "dure": "30min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
+
+                    {
+                        "id": 2,
+                        "nom": "JOUR 27",
+                        "dure": "1h20",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
+
+                    {
+                        "id": 3,
+                        "nom": "JOUR 28",
+                        "dure": "50min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+
+                        ]
+                    },
+
+                    {
+                        "id": 4,
+                        "nom": "JOUR 29",
+                        "dure": "30min",
+                        'desc': "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
+
+                    {
+                        "id": 5,
+                        "nom": "JOUR 30",
+                        "desc": "Cette dernière séance travaille principalement les épaules et le dos, tout en aidant à améliorer sa posture.",
+                        "routines": [
+                            {
+                                "id": 1,
+                                "titre": 'Echauffement',
+                                "url": 'https://www.youtube.com/embed/pcgzgl8b5C8',
+                            },
+                            {
+                                "id": 2,
+                                "titre": 'Pectoraux',
+                                "url": "https://www.youtube.com/embed/2m6FlDwaIhc",
+                            },
+                            {
+                                "id": 3,
+                                "titre": 'Abdominaux',
+                                "url": 'https://www.youtube.com/embed/3eQa7C6D4XU',
+                            },
+                        ]
+                    },
+
+                ],
+            },
         ]
 
     }
